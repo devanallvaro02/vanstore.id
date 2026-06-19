@@ -10,7 +10,7 @@ export default function HomePage() {
   const [typedText, setTypedText] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [searchTerm, setSearchTerm] = useState('');
-  const fullText = 'Toopup & Get a New Experience in Gaming';
+  const fullText = 'TOP UP ALL GAME TERPERCAYA DAN HARGA TERJANGKAU HANYA DI VAN STORE ID';
 
   useEffect(() => {
     let i = 0;
