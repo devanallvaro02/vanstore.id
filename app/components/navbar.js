@@ -11,7 +11,7 @@ const Navbar = () => {
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="text-3xl text-black font-bold">
-          <span className="text-red-500">L</span>SW
+          <span className="text-red-500">VAN</span>STORE
         </div>
         <div className="hidden md:flex items-center space-x-6">
           <Link href="/" className="text-gray-600 hover:text-blue-500 transition">
