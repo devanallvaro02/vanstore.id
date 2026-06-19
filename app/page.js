@@ -10,9 +10,10 @@ export default function HomePage() {
   const [typedText, setTypedText] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [searchTerm, setSearchTerm] = useState('');
-  const fullText = 'TOP UP ALL GAME TERPERCAYA DAN HARGA TERJANGKAU HANYA DI VAN STORE ID';
+  const fullText = 'TOP UP ALL GAME TERPERCAYA <br />
+DAN HARGA TERJANGKAU <br /> HANYA DI VAN STORE ID';
 
-  useEffect(() => {
+  useEffect(() => { 
     let i = 0;
     const typingInterval = setInterval(() => {
       if (i < fullText.length) {
